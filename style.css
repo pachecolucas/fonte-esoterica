@@ -1,0 +1,300 @@
+@font-face {
+  font-family: 'alfabeto';
+  src:  url('fonts/alfabeto.eot?ol39ea');
+  src:  url('fonts/alfabeto.eot?ol39ea#iefix') format('embedded-opentype'),
+    url('fonts/alfabeto.ttf?ol39ea') format('truetype'),
+    url('fonts/alfabeto.woff?ol39ea') format('woff'),
+    url('fonts/alfabeto.svg?ol39ea#alfabeto') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'alfabeto' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ae-i:before {
+  content: "\e900";
+}
+.ae-ii:before {
+  content: "\e901";
+}
+.ae-iii:before {
+  content: "\e902";
+}
+.ae-iv:before {
+  content: "\e903";
+}
+.ae-v:before {
+  content: "\e905";
+}
+.ae-vi:before {
+  content: "\e906";
+}
+.ae-vii:before {
+  content: "\e907";
+}
+.ae-viii:before {
+  content: "\e908";
+}
+.ae-ix:before {
+  content: "\e904";
+}
+.ae-x:before {
+  content: "\e909";
+}
+.ae-xi:before {
+  content: "\e90a";
+}
+.ae-xii:before {
+  content: "\e90b";
+}
+.ae-cardinal1:before {
+  content: "\e950";
+}
+.ae-fixo1:before {
+  content: "\e951";
+}
+.ae-mutavel1:before {
+  content: "\e952";
+}
+.ae-cardinal-o1:before {
+  content: "\e953";
+}
+.ae-fixo-o1:before {
+  content: "\e954";
+}
+.ae-mutavel-o1:before {
+  content: "\e955";
+}
+.ae-conjuncao:before {
+  content: "\e957";
+}
+.ae-oposicao:before {
+  content: "\e958";
+}
+.ae-trigono:before {
+  content: "\e960";
+}
+.ae-quadratura:before {
+  content: "\e959";
+}
+.ae-semiquadratura:before {
+  content: "\e95c";
+}
+.ae-sesquiquadratura:before {
+  content: "\e95e";
+}
+.ae-sextil:before {
+  content: "\e95f";
+}
+.ae-semisextil:before {
+  content: "\e95d";
+}
+.ae-quintil:before {
+  content: "\e95b";
+}
+.ae-biquintil:before {
+  content: "\e956";
+}
+.ae-quincuncio:before {
+  content: "\e95a";
+}
+.ae-aries:before {
+  content: "\e912";
+}
+.ae-touro:before {
+  content: "\e913";
+}
+.ae-gemeos:before {
+  content: "\e914";
+}
+.ae-cancer:before {
+  content: "\e915";
+}
+.ae-leao:before {
+  content: "\e916";
+}
+.ae-virgem:before {
+  content: "\e917";
+}
+.ae-libra:before {
+  content: "\e918";
+}
+.ae-escorpiao:before {
+  content: "\e919";
+}
+.ae-sagitario:before {
+  content: "\e91a";
+}
+.ae-capricornio:before {
+  content: "\e91b";
+}
+.ae-aquario:before {
+  content: "\e91c";
+}
+.ae-peixes:before {
+  content: "\e91d";
+}
+.ae-agua-o:before {
+  content: "\e91e";
+}
+.ae-agua:before {
+  content: "\e91f";
+}
+.ae-ar-o:before {
+  content: "\e920";
+}
+.ae-ar:before {
+  content: "\e921";
+}
+.ae-fogo-o:before {
+  content: "\e922";
+}
+.ae-fogo:before {
+  content: "\e923";
+}
+.ae-terra-o:before {
+  content: "\e924";
+}
+.ae-terra1:before {
+  content: "\e925";
+}
+.ae-ac:before {
+  content: "\e926";
+}
+.ae-dc:before {
+  content: "\e927";
+}
+.ae-fc:before {
+  content: "\e928";
+}
+.ae-mc:before {
+  content: "\e929";
+}
+.ae-jupiter:before {
+  content: "\e92a";
+}
+.ae-lua:before {
+  content: "\e92b";
+}
+.ae-marte:before {
+  content: "\e92c";
+}
+.ae-mercurio:before {
+  content: "\e92d";
+}
+.ae-netuno:before {
+  content: "\e92e";
+}
+.ae-plutao:before {
+  content: "\e92f";
+}
+.ae-saturno:before {
+  content: "\e930";
+}
+.ae-sol:before {
+  content: "\e931";
+}
+.ae-terra:before {
+  content: "\e932";
+}
+.ae-urano:before {
+  content: "\e933";
+}
+.ae-venus:before {
+  content: "\e934";
+}
+.ae-n0:before {
+  content: "\e935";
+}
+.ae-n1:before {
+  content: "\e936";
+}
+.ae-n2:before {
+  content: "\e937";
+}
+.ae-n3:before {
+  content: "\e938";
+}
+.ae-n4:before {
+  content: "\e939";
+}
+.ae-n5:before {
+  content: "\e93a";
+}
+.ae-n6:before {
+  content: "\e93b";
+}
+.ae-n7:before {
+  content: "\e93c";
+}
+.ae-n8:before {
+  content: "\e93d";
+}
+.ae-n9:before {
+  content: "\e93e";
+}
+.ae-n10:before {
+  content: "\e93f";
+}
+.ae-n11:before {
+  content: "\e940";
+}
+.ae-n12:before {
+  content: "\e941";
+}
+.ae-n22:before {
+  content: "\e942";
+}
+.ae-n33:before {
+  content: "\e943";
+}
+.ae-n44:before {
+  content: "\e944";
+}
+.ae-dualidade:before {
+  content: "\e945";
+}
+.ae-pedra-filosofal:before {
+  content: "\e946";
+}
+.ae-quaternario:before {
+  content: "\e947";
+}
+.ae-todo:before {
+  content: "\e948";
+}
+.ae-triade:before {
+  content: "\e949";
+}
+.ae-unidade:before {
+  content: "\e94a";
+}
+.ae-ceres:before {
+  content: "\e94b";
+}
+.ae-juno:before {
+  content: "\e94c";
+}
+.ae-pallas:before {
+  content: "\e94d";
+}
+.ae-quiron:before {
+  content: "\e94e";
+}
+.ae-vesta:before {
+  content: "\e94f";
+}
