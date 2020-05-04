@@ -1,16 +1,15 @@
 @font-face {
   font-family: 'alfabeto';
-  src:  url('fonts/alfabeto.eot?ol39ea');
-  src:  url('fonts/alfabeto.eot?ol39ea#iefix') format('embedded-opentype'),
-    url('fonts/alfabeto.ttf?ol39ea') format('truetype'),
-    url('fonts/alfabeto.woff?ol39ea') format('woff'),
-    url('fonts/alfabeto.svg?ol39ea#alfabeto') format('svg');
+  src:
+    url('fonts/alfabeto.ttf?sbyk65') format('truetype'),
+    url('fonts/alfabeto.woff?sbyk65') format('woff'),
+    url('fonts/alfabeto.svg?sbyk65#alfabeto') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="ae-"], [class*=" ae-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'alfabeto' !important;
   speak: none;
